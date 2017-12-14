@@ -9,7 +9,19 @@ app.config['DEBUG'] = True#this reloads Flask app everytime I make changes to ma
 def india():
     print("python enabled to print this")
     return render_template("IndiaWorks.html")
-
+@app.route("/exerhours",methods=["GET"])
+def exerhours():
+    return render_template("sqlmailaddList.html")
+@app.route("/exerhours",methods=["POST"])
+def exerhours():
+    firstname= request.form["firstname"]
+    email = request.form["email"]
+    exerhours=request.form["exerhours"]
+    print(firstname)
+    print(email)
+    print(exerhours)
+    send_email(email,firstname,exerhours)
+    return render_template("sqlmailaddList.html")
 form = """
 <!DOCTYPE HTML>
 <html>
@@ -28,7 +40,7 @@ def index():
     return form
 @app.route("/email",methods=["GET"])
 def email():
-    return render_template("sqlmailaddList.html")
+    return render_template("sendemail.html")
 @app.route("/email",methods=["POST"])
 def email_post():
     firstname= request.form["firstname"]
@@ -38,6 +50,9 @@ def email_post():
     print(email)
     print(exerhours)
     send_email(email,firstname,exerhours)
+    return render_template("sendemail.html")
+@app.route("/exerhours",methods=["GET"])
+def exerhours_GET():
     return render_template("sqlmailaddList.html")
 
 app.run()

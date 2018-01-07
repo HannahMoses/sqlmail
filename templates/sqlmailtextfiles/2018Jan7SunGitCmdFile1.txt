@@ -1,0 +1,654 @@
+
+5:26 PM 1/7/2018
+
+cody@LAPTOP-TO4068AG MINGW64 /
+$ cd gitcode/fitgrit
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    fitgritstart.py
+        modified:   mainfitgrit.py
+        modified:   readme.txt
+        modified:   templates/fitgritaddList.html
+        modified:   templates/fitgritstyling/fitgritstyle1.css
+        modified:   templates/fitgritstyling/fitgritstyle2.css
+        modified:   templates/fitgrittextfiles/2017Dec16FitgritGitbashCmd1.txt
+        modified:   templates/form1.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        1FITGRITclient_secret.json
+        1FITGRITquickstart.py
+        FITGRITclient_secret.json
+        FITGRITquickstart.py
+        Prev2FITGRITclient_secret.json
+        PrevFITGRITclient_secret.json
+        PrevFITGRITquickstart.py
+        Prevfitgritemailer.py
+        __pycache__/
+        fitgritemailer.py
+        templates/fitgritimages/1.JPG
+        templates/fitgritimages/1Doubts2018Jan/
+        templates/fitgritimages/1DoubtsThirdTime2018Jan4Cookies/
+        templates/fitgritimages/DoubtsSecondTimeWithLCoderTOgapp/
+        templates/fitgritimages/DoubtsWithGapp2LCoder/
+        templates/fitgritimages/PrevfitgritemailerDOTpy2017Dec17Sun03am50.JPG
+        templates/fitgritimages/SUCCESS/FirstTImeWithGapp2LCoder/
+        templates/fitgritimages/SUCCESS/SuccessExpmnt/2017Dec16ToPRINTmyWebpage.JPG
+        templates/fitgritimages/SUCCESS/SuccessExpmnt/3.pdf
+        templates/fitgritimages/SUCCESS/SuccessSecondTimeWithLCoderTOgapp/
+        templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/
+        templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018an4/
+        templates/fitgritimages/fitgritGmailAPIimages/
+        templates/fitgritimages/fitgritemailerDOTpy2017Dec17Sun03am50.JPG
+        templates/fitgrittextfiles/1a2018Jan4ThuFitgritGitbashCmd.txt
+        templates/fitgrittextfiles/2017Dec17EmailAccounts3TestProjestONLYnot4PersonalUse.txt
+        templates/fitgrittextfiles/2017Dec17SatFitgritGitbashCmd2gmailAPIsetup.txt
+        templates/fitgrittextfiles/2017Dec17SunfitgritClientSecret.txt
+        templates/fitgrittextfiles/2017fitgritgmailAPIprojClientIDandClientSecret.txt
+        templates/fitgrittextfiles/2018Jan4ThuFitgritGitbashCmd1.txt
+        templates/fitgrittextfiles/2018Jan4ThufitgritgmailAPIprojClientIDandClientSecret.txt
+        templates/fitgrittextfiles/2018Jan4WebHosting.txt
+        templates/fitgrittextfiles/HintsFromPreviousProjectTextFiles/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git commit -m "Fully working proj add,print,email"
+On branch master
+Changes not staged for commit:
+        deleted:    fitgritstart.py
+        modified:   mainfitgrit.py
+        modified:   readme.txt
+        modified:   templates/fitgritaddList.html
+        modified:   templates/fitgritstyling/fitgritstyle1.css
+        modified:   templates/fitgritstyling/fitgritstyle2.css
+        modified:   templates/fitgrittextfiles/2017Dec16FitgritGitbashCmd1.txt
+        modified:   templates/form1.html
+
+Untracked files:
+        1FITGRITclient_secret.json
+        1FITGRITquickstart.py
+        FITGRITclient_secret.json
+        FITGRITquickstart.py
+        Prev2FITGRITclient_secret.json
+        PrevFITGRITclient_secret.json
+        PrevFITGRITquickstart.py
+        Prevfitgritemailer.py
+        __pycache__/
+        fitgritemailer.py
+        templates/fitgritimages/1.JPG
+        templates/fitgritimages/1Doubts2018Jan/
+        templates/fitgritimages/1DoubtsThirdTime2018Jan4Cookies/
+        templates/fitgritimages/DoubtsSecondTimeWithLCoderTOgapp/
+        templates/fitgritimages/DoubtsWithGapp2LCoder/
+        templates/fitgritimages/PrevfitgritemailerDOTpy2017Dec17Sun03am50.JPG
+        templates/fitgritimages/SUCCESS/FirstTImeWithGapp2LCoder/
+        templates/fitgritimages/SUCCESS/SuccessExpmnt/2017Dec16ToPRINTmyWebpage.JPG
+        templates/fitgritimages/SUCCESS/SuccessExpmnt/3.pdf
+        templates/fitgritimages/SUCCESS/SuccessSecondTimeWithLCoderTOgapp/
+        templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/
+        templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018an4/
+        templates/fitgritimages/fitgritGmailAPIimages/
+        templates/fitgritimages/fitgritemailerDOTpy2017Dec17Sun03am50.JPG
+        templates/fitgrittextfiles/1a2018Jan4ThuFitgritGitbashCmd.txt
+        templates/fitgrittextfiles/2017Dec17EmailAccounts3TestProjestONLYnot4PersonalUse.txt
+        templates/fitgrittextfiles/2017Dec17SatFitgritGitbashCmd2gmailAPIsetup.txt
+        templates/fitgrittextfiles/2017Dec17SunfitgritClientSecret.txt
+        templates/fitgrittextfiles/2017fitgritgmailAPIprojClientIDandClientSecret.txt
+        templates/fitgrittextfiles/2018Jan4ThuFitgritGitbashCmd1.txt
+        templates/fitgrittextfiles/2018Jan4ThufitgritgmailAPIprojClientIDandClientSecret.txt
+        templates/fitgrittextfiles/2018Jan4WebHosting.txt
+        templates/fitgrittextfiles/HintsFromPreviousProjectTextFiles/
+
+no changes added to commit
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    fitgritstart.py
+        modified:   mainfitgrit.py
+        modified:   readme.txt
+        modified:   templates/fitgritaddList.html
+        modified:   templates/fitgritstyling/fitgritstyle1.css
+        modified:   templates/fitgritstyling/fitgritstyle2.css
+        modified:   templates/fitgrittextfiles/2017Dec16FitgritGitbashCmd1.txt
+        modified:   templates/form1.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        1FITGRITclient_secret.json
+        1FITGRITquickstart.py
+        FITGRITclient_secret.json
+        FITGRITquickstart.py
+        Prev2FITGRITclient_secret.json
+        PrevFITGRITclient_secret.json
+        PrevFITGRITquickstart.py
+        Prevfitgritemailer.py
+        __pycache__/
+        fitgritemailer.py
+        templates/fitgritimages/1.JPG
+        templates/fitgritimages/1Doubts2018Jan/
+        templates/fitgritimages/1DoubtsThirdTime2018Jan4Cookies/
+        templates/fitgritimages/DoubtsSecondTimeWithLCoderTOgapp/
+        templates/fitgritimages/DoubtsWithGapp2LCoder/
+        templates/fitgritimages/PrevfitgritemailerDOTpy2017Dec17Sun03am50.JPG
+        templates/fitgritimages/SUCCESS/FirstTImeWithGapp2LCoder/
+        templates/fitgritimages/SUCCESS/SuccessExpmnt/2017Dec16ToPRINTmyWebpage.JPG
+        templates/fitgritimages/SUCCESS/SuccessExpmnt/3.pdf
+        templates/fitgritimages/SUCCESS/SuccessSecondTimeWithLCoderTOgapp/
+        templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/
+        templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018an4/
+        templates/fitgritimages/fitgritGmailAPIimages/
+        templates/fitgritimages/fitgritemailerDOTpy2017Dec17Sun03am50.JPG
+        templates/fitgrittextfiles/1a2018Jan4ThuFitgritGitbashCmd.txt
+        templates/fitgrittextfiles/2017Dec17EmailAccounts3TestProjestONLYnot4PersonalUse.txt
+        templates/fitgrittextfiles/2017Dec17SatFitgritGitbashCmd2gmailAPIsetup.txt
+        templates/fitgrittextfiles/2017Dec17SunfitgritClientSecret.txt
+        templates/fitgrittextfiles/2017fitgritgmailAPIprojClientIDandClientSecret.txt
+        templates/fitgrittextfiles/2018Jan4ThuFitgritGitbashCmd1.txt
+        templates/fitgrittextfiles/2018Jan4ThufitgritgmailAPIprojClientIDandClientSecret.txt
+        templates/fitgrittextfiles/2018Jan4WebHosting.txt
+        templates/fitgrittextfiles/HintsFromPreviousProjectTextFiles/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git add .
+error: open("templates/fitgritimages/fitgritGmailAPIimages/CreatingGmailAPIprojFitgrit/FAILEDsecondTimeinstallationOFfitgritProjAsGmailAPIproject/3aSendingEmailThroServerFromMyFitgritOnWebBrowserUsinggapp2017falloctATgmail2017Dec17Sun.JPG"): Filename too long
+error: unable to index file templates/fitgritimages/fitgritGmailAPIimages/CreatingGmailAPIprojFitgrit/FAILEDsecondTimeinstallationOFfitgritProjAsGmailAPIproject/3aSendingEmailThroServerFromMyFitgritOnWebBrowserUsinggapp2017falloctATgmail2017Dec17Sun.JPG
+fatal: adding files failed
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ gt status
+bash: gt: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    fitgritstart.py
+        modified:   mainfitgrit.py
+        modified:   readme.txt
+        modified:   templates/fitgritaddList.html
+        modified:   templates/fitgritstyling/fitgritstyle1.css
+        modified:   templates/fitgritstyling/fitgritstyle2.css
+        modified:   templates/fitgrittextfiles/2017Dec16FitgritGitbashCmd1.txt
+        modified:   templates/form1.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        1FITGRITclient_secret.json
+        1FITGRITquickstart.py
+        FITGRITclient_secret.json
+        FITGRITquickstart.py
+        Prev2FITGRITclient_secret.json
+        PrevFITGRITclient_secret.json
+        PrevFITGRITquickstart.py
+        Prevfitgritemailer.py
+        __pycache__/
+        fitgritemailer.py
+        templates/fitgritimages/1.JPG
+        templates/fitgritimages/1Doubts2018Jan/
+        templates/fitgritimages/PrevfitgritemailerDOTpy2017Dec17Sun03am50.JPG
+        templates/fitgritimages/SUCCESS/FirstTImeWithGapp2LCoder/
+        templates/fitgritimages/SUCCESS/SuccessExpmnt/2017Dec16ToPRINTmyWebpage.JPG
+        templates/fitgritimages/SUCCESS/SuccessExpmnt/3.pdf
+        templates/fitgritimages/SUCCESS/SuccessSecondTimeWithLCoderTOgapp/
+        templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/
+        templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018an4/
+        templates/fitgritimages/fitgritemailerDOTpy2017Dec17Sun03am50.JPG
+        templates/fitgrittextfiles/1a2018Jan4ThuFitgritGitbashCmd.txt
+        templates/fitgrittextfiles/2017Dec17EmailAccounts3TestProjestONLYnot4PersonalUse.txt
+        templates/fitgrittextfiles/2017Dec17SatFitgritGitbashCmd2gmailAPIsetup.txt
+        templates/fitgrittextfiles/2017Dec17SunfitgritClientSecret.txt
+        templates/fitgrittextfiles/2017fitgritgmailAPIprojClientIDandClientSecret.txt
+        templates/fitgrittextfiles/2018Jan4ThuFitgritGitbashCmd1.txt
+        templates/fitgrittextfiles/2018Jan4ThufitgritgmailAPIprojClientIDandClientSecret.txt
+        templates/fitgrittextfiles/2018Jan4WebHosting.txt
+        templates/fitgrittextfiles/HintsFromPreviousProjectTextFiles/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git add .
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   1FITGRITclient_secret.json
+        new file:   1FITGRITquickstart.py
+        new file:   FITGRITclient_secret.json
+        renamed:    fitgritstart.py -> FITGRITquickstart.py
+        new file:   Prev2FITGRITclient_secret.json
+        new file:   PrevFITGRITclient_secret.json
+        new file:   PrevFITGRITquickstart.py
+        new file:   Prevfitgritemailer.py
+        new file:   __pycache__/fitgritemailer.cpython-36.pyc
+        new file:   fitgritemailer.py
+        modified:   mainfitgrit.py
+        modified:   readme.txt
+        modified:   templates/fitgritaddList.html
+        new file:   templates/fitgritimages/1.JPG
+        new file:   templates/fitgritimages/1Doubts2018Jan/1.JPG
+        new file:   templates/fitgritimages/1Doubts2018Jan/2.JPG
+        new file:   templates/fitgritimages/1Doubts2018Jan/3.JPG
+        new file:   templates/fitgritimages/1Doubts2018Jan/33.JPG
+        new file:   templates/fitgritimages/PrevfitgritemailerDOTpy2017Dec17Sun03am50.JPG
+        new file:   templates/fitgritimages/SUCCESS/FirstTImeWithGapp2LCoder/1a2017Dec17fitgritDisplaysSLASHemailRouteGETmethod.JPG
+        new file:   templates/fitgritimages/SUCCESS/FirstTImeWithGapp2LCoder/2017Dec17fitgritDisplaysSLASHhelloRoute.JPG
+        new file:   templates/fitgritimages/SUCCESS/SuccessExpmnt/2017Dec16ToPRINTmyWebpage.JPG
+        new file:   templates/fitgritimages/SUCCESS/SuccessExpmnt/3.pdf
+        new file:   templates/fitgritimages/SUCCESS/SuccessSecondTimeWithLCoderTOgapp/1a2017Dec17fitgritDisplaysSLASHemailRouteGETmethod05am29.JPG
+        new file:   templates/fitgritimages/SUCCESS/SuccessSecondTimeWithLCoderTOgapp/2017Dec17fitgritDisplaysWithLCoderSLASHhelloRoute05AM19.JPG
+        new file:   templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/1.JPG
+        new file:   templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/2.JPG
+        new file:   templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/3.JPG
+        new file:   templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/4.JPG
+        new file:   templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018an4/2018Jan4Thu.JPG
+        new file:   templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018an4/2018Jan4Thu11am56.JPG
+        new file:   templates/fitgritimages/fitgritemailerDOTpy2017Dec17Sun03am50.JPG
+        modified:   templates/fitgritstyling/fitgritstyle1.css
+        modified:   templates/fitgritstyling/fitgritstyle2.css
+        new file:   templates/fitgrittextfiles/1a2018Jan4ThuFitgritGitbashCmd.txt
+        modified:   templates/fitgrittextfiles/2017Dec16FitgritGitbashCmd1.txt
+        new file:   templates/fitgrittextfiles/2017Dec17EmailAccounts3TestProjestONLYnot4PersonalUse.txt
+        new file:   templates/fitgrittextfiles/2017Dec17SatFitgritGitbashCmd2gmailAPIsetup.txt
+        new file:   templates/fitgrittextfiles/2017Dec17SunfitgritClientSecret.txt
+        new file:   templates/fitgrittextfiles/2017fitgritgmailAPIprojClientIDandClientSecret.txt
+        new file:   templates/fitgrittextfiles/2018Jan4ThuFitgritGitbashCmd1.txt
+        new file:   templates/fitgrittextfiles/2018Jan4ThufitgritgmailAPIprojClientIDandClientSecret.txt
+        new file:   templates/fitgrittextfiles/2018Jan4WebHosting.txt
+        new file:   templates/fitgrittextfiles/HintsFromPreviousProjectTextFiles/HINTSfromPreviousProjectsSetUpAsGmailAPIappProjectsUsingPythonFlask2017Dec11Mon.txt
+        new file:   templates/fitgrittextfiles/HintsFromPreviousProjectTextFiles/HINTSfromPreviousProjectsSetUpAsGmailAPIappProjectsUsingPythonFlask2017Dec14Mon.txt
+        modified:   templates/form1.html
+
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git commit -m "Fully working proj add,print,email"
+[master b2a78fe] Fully working proj add,print,email
+ 46 files changed, 2869 insertions(+), 23 deletions(-)
+ create mode 100644 1FITGRITclient_secret.json
+ create mode 100644 1FITGRITquickstart.py
+ create mode 100644 FITGRITclient_secret.json
+ rename fitgritstart.py => FITGRITquickstart.py (92%)
+ create mode 100644 Prev2FITGRITclient_secret.json
+ create mode 100644 PrevFITGRITclient_secret.json
+ create mode 100644 PrevFITGRITquickstart.py
+ create mode 100644 Prevfitgritemailer.py
+ create mode 100644 __pycache__/fitgritemailer.cpython-36.pyc
+ create mode 100644 fitgritemailer.py
+ create mode 100644 templates/fitgritimages/1.JPG
+ create mode 100644 templates/fitgritimages/1Doubts2018Jan/1.JPG
+ create mode 100644 templates/fitgritimages/1Doubts2018Jan/2.JPG
+ create mode 100644 templates/fitgritimages/1Doubts2018Jan/3.JPG
+ create mode 100644 templates/fitgritimages/1Doubts2018Jan/33.JPG
+ create mode 100644 templates/fitgritimages/PrevfitgritemailerDOTpy2017Dec17Sun03am50.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/FirstTImeWithGapp2LCoder/1a2017Dec17fitgritDisplaysSLASHemailRouteGETmethod.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/FirstTImeWithGapp2LCoder/2017Dec17fitgritDisplaysSLASHhelloRoute.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/SuccessExpmnt/2017Dec16ToPRINTmyWebpage.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/SuccessExpmnt/3.pdf
+ create mode 100644 templates/fitgritimages/SUCCESS/SuccessSecondTimeWithLCoderTOgapp/1a2017Dec17fitgritDisplaysSLASHemailRouteGETmethod05am29.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/SuccessSecondTimeWithLCoderTOgapp/2017Dec17fitgritDisplaysWithLCoderSLASHhelloRoute05AM19.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/1.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/2.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/3.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018Jan7/4.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018an4/2018Jan4Thu.JPG
+ create mode 100644 templates/fitgritimages/SUCCESS/SuccessThirdTimeWithLCoderTOgapp2018an4/2018Jan4Thu11am56.JPG
+ create mode 100644 templates/fitgritimages/fitgritemailerDOTpy2017Dec17Sun03am50.JPG
+ create mode 100644 templates/fitgrittextfiles/1a2018Jan4ThuFitgritGitbashCmd.txt
+ create mode 100644 templates/fitgrittextfiles/2017Dec17EmailAccounts3TestProjestONLYnot4PersonalUse.txt
+ create mode 100644 templates/fitgrittextfiles/2017Dec17SatFitgritGitbashCmd2gmailAPIsetup.txt
+ create mode 100644 templates/fitgrittextfiles/2017Dec17SunfitgritClientSecret.txt
+ create mode 100644 templates/fitgrittextfiles/2017fitgritgmailAPIprojClientIDandClientSecret.txt
+ create mode 100644 templates/fitgrittextfiles/2018Jan4ThuFitgritGitbashCmd1.txt
+ create mode 100644 templates/fitgrittextfiles/2018Jan4ThufitgritgmailAPIprojClientIDandClientSecret.txt
+ create mode 100644 templates/fitgrittextfiles/2018Jan4WebHosting.txt
+ create mode 100644 templates/fitgrittextfiles/HintsFromPreviousProjectTextFiles/HINTSfromPreviousProjectsSetUpAsGmailAPIappProjectsUsingPythonFlask2017Dec11Mon.txt
+ create mode 100644 templates/fitgrittextfiles/HintsFromPreviousProjectTextFiles/HINTSfromPreviousProjectsSetUpAsGmailAPIappProjectsUsingPythonFlask2017Dec14Mon.txt
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        templates/fitgrittextfiles/2018Jan7ThuFitgritGitbashCmd1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git add .
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   templates/fitgrittextfiles/2018Jan7ThuFitgritGitbashCmd1.txt
+
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git commit -m "Pushed to git hub"
+[master 1ab70cd] Pushed to git hub
+ 1 file changed, 351 insertions(+)
+ create mode 100644 templates/fitgrittextfiles/2018Jan7ThuFitgritGitbashCmd1.txt
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ gt status
+bash: gt: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ git push origin master
+Counting objects: 66, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (65/65), done.
+Writing objects: 100% (66/66), 2.16 MiB | 378.00 KiB/s, done.
+Total 66 (delta 20), reused 0 (delta 0)
+remote: Resolving deltas: 100% (20/20), completed with 5 local objects.
+To https://github.com/HannahMoses/fitgrit.git
+   9833811..1ab70cd  master -> master
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/fitgrit (master)
+$ cd
+
+cody@LAPTOP-TO4068AG MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ code/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ git/
+ Google/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ mercurial.ini
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{e259a959-cbbd-11e7-bb13-a81e841a73e0}.TxR.0.regtrans-ms
+ NTUSER.DAT{e259a959-cbbd-11e7-bb13-a81e841a73e0}.TxR.1.regtrans-ms
+ NTUSER.DAT{e259a959-cbbd-11e7-bb13-a81e841a73e0}.TxR.2.regtrans-ms
+ NTUSER.DAT{e259a959-cbbd-11e7-bb13-a81e841a73e0}.TxR.blf
+ NTUSER.DAT{e259a95a-cbbd-11e7-bb13-a81e841a73e0}.TM.blf
+ NTUSER.DAT{e259a95a-cbbd-11e7-bb13-a81e841a73e0}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{e259a95a-cbbd-11e7-bb13-a81e841a73e0}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ PicStream/
+ Pictures/
+ PrintHood@
+ Recent@
+ RemovedDOTcredntialFile/
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ workspace/
+
+cody@LAPTOP-TO4068AG MINGW64 ~
+$ cd Downloads/Git/gitcode
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode
+$ ls
+1BrowserJavaScriptLC101Unit3DOT2.txt  frontend/
+1DoubtsThirdTime2018Jan4Cookies/      gmail_project/
+1JavaScriptLC101Unit3DOT2.txt         JS2017/
+1MPMeditedUSEthis2017Oct25/           JSstudios/
+1USEthis2017Oct25/                    LC101/
+2Myexpts1a2017Nov/                    MyJS/
+dontUse/                              MyPHP/
+DoubtsSecondTimeWithLCoderTOgapp/     myshop2/
+DoubtsWithGapp2LCoder/                proj1/
+fitgrit/                              proj2/
+fitgritGmailAPIimages/
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode
+$ cd 1USEthis2017Oct25
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode/1USEthis2017Oct25
+$ ls
+1aHowTO/  2HOWto/                   balletclassstu/  gymtime/    spellingbee/
+1HowTO/   2myExptpythonJSgmailAPI/  goodmed/         merrymail/  sqlmail/
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode/1USEthis2017Oct25
+$ cd sqlmail
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode/1USEthis2017Oct25/sqlmail (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    templates/IndiaWorks.html
+        deleted:    templates/base.html
+        deleted:    templates/form1.html
+        deleted:    templates/ipform.html
+        deleted:    templates/sendemail.html
+        modified:   templates/sqlmailaddList.html
+        deleted:    templates/sqlmailimages/gymtimeaddListDOThtmNOTlRenderedThroughBrowser.JPG
+        deleted:    templates/sqlmailimages/gymtimeaddListDOThtml.JPG
+        deleted:    templates/sqlmailimages/gymtimeaddListDOThtmlRenderedThroughBrowser.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/2.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/2017Dec14a1.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/3.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/a2017Dec11.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/1.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/2.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/3GoodSubmit.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/4SUCCESStqlJesus.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/solu1.txt
+        deleted:    templates/sqlmailimages/successSqlmailPics/2017Dec5gitbashCmd2TestPrintingOfTestMessageEveryTImeBrowserRendersFileWhenUserPressesSubmits.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/2017Dec5pm0152dIFFERENCEbtwGymtimeaddListIsNOTrenderedThroSERVERandRenderedThroFlaskAppSERVERGivesIndiaWorksDOThtmlFile.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/2017Dec5pm0152gymtimeaddListIsRenderedThrohtml file is being rendered THROUGH the flask application serverGivesIndiaWorksDOThtmlFile.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/HiFromIndiaDisplayedOnURLlocalhostCOLON5000slashindia.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/IndiaWorksTEMPLATEdisplayedOnURLlocalhostCOLON5000slashindia.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a12017Dec5TutorialProcessingFormsInFlaskRendersEmptyForm.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a2017Dec5TutorialProcessingFormsInFlask.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a2017Dec6FlaskAppUsesdifferentBrowsersToRenderMyFileTutorialProcessingFormsInFlask.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a2017Dec6KillingFlaskAppDisablesServerFromRenderingMyFileToBrowserTutorialProcessingFormsInFlask.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a22017Dec6SUBMITbuttonGivenValueAndFlaskAppUsesdifferentBrowsersToRenderMyFileTutorialProcessingFormsInFlask.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a32017Dec6WedHellohandlerHandlesReqSInceFOrmActionIsSPecifiedAsHello.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a42017Dec6WedPOSTmethodUsedInREnderingFormTOBrowserByServerUsingFlskAppInPythonFile.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/unsuccessful/1.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/unsuccessful/a12017Dec6wedHellohandlerDoesNotHandleTheRequestMadeByBrowserToServer.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/unsuccessful/a22017Dec6wedFormActonNotSPecifiedSoHellohandlerDoesNotHandleTheRequestMadeByBrowserToServer.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/differenceBtwUsingServerAndNotUsingServer/2017Dec5pm0152DiffNOTrenderedThroSERVERandRenderedThroFlaskAppSERVERGivesIndiaWorksDOThtmlFile.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/differenceBtwUsingServerAndNotUsingServer/gymtime2017Dec7SubmitHTMLthroServerDIFFgymtimeaddListIsNOTrenderedThroSERVERandRenderedThroFlaskAp.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/differenceBtwUsingServerAndNotUsingServer/gymtime2017Dec7SubmitHTMLwithoutServerDIFFgymtimRenderedThroLocalNOTrenderedThroSERVERand.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/gymtime2017Dec7SubmitDisplaysIpformHTMLwithoutServer.JPG
+        modified:   templates/sqlmailstyling/sqlmailstyle1.css
+        modified:   templates/sqlmailstyling/sqlmailstyle2.css
+        deleted:    templates/sqlmailtextfiles/1.txt
+        deleted:    templates/sqlmailtextfiles/2017Dec11.txt
+        deleted:    templates/sqlmailtextfiles/2017Dec14WorkedForSLASHemailNowCode4SLASHexerhours.txt
+        deleted:    templates/sqlmailtextfiles/Hint1.txt
+        deleted:    templates/sqlmailtextfiles/NewClientExerhours2.txt
+        deleted:    templates/sqlmailtextfiles/gitcmd2017Nov14Tuessendgymail1.txt
+        deleted:    templates/sqlmailtextfiles/gitcmd2017dec5TuesSentGymtimeaddlistDOThtmlTHROUGHbrowserUsingFlaskEnvironment.txt
+        deleted:    templates/sqlmailtextfiles/impInstallsqlmail/gitbash1India.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode/1USEthis2017Oct25/sqlmail (master)
+$ git add .
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode/1USEthis2017Oct25/sqlmail (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    templates/IndiaWorks.html
+        deleted:    templates/form1.html
+        deleted:    templates/ipform.html
+        deleted:    templates/sendemail.html
+        renamed:    templates/base.html -> templates/sqlmailaddList.html
+        deleted:    templates/sqlmailimages/gymtimeaddListDOThtmNOTlRenderedThroughBrowser.JPG
+        deleted:    templates/sqlmailimages/gymtimeaddListDOThtml.JPG
+        deleted:    templates/sqlmailimages/gymtimeaddListDOThtmlRenderedThroughBrowser.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/2.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/2017Dec14a1.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/3.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/a2017Dec11.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/1.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/2.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/3GoodSubmit.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/4SUCCESStqlJesus.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/solu1.txt
+        deleted:    templates/sqlmailimages/successSqlmailPics/2017Dec5gitbashCmd2TestPrintingOfTestMessageEveryTImeBrowserRendersFileWhenUserPressesSubmits.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/2017Dec5pm0152dIFFERENCEbtwGymtimeaddListIsNOTrenderedThroSERVERandRenderedThroFlaskAppSERVERGivesIndiaWorksDOThtmlFile.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/2017Dec5pm0152gymtimeaddListIsRenderedThrohtml file is being rendered THROUGH the flask application serverGivesIndiaWorksDOThtmlFile.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/HiFromIndiaDisplayedOnURLlocalhostCOLON5000slashindia.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/IndiaWorksTEMPLATEdisplayedOnURLlocalhostCOLON5000slashindia.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a12017Dec5TutorialProcessingFormsInFlaskRendersEmptyForm.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a2017Dec5TutorialProcessingFormsInFlask.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a2017Dec6FlaskAppUsesdifferentBrowsersToRenderMyFileTutorialProcessingFormsInFlask.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a2017Dec6KillingFlaskAppDisablesServerFromRenderingMyFileToBrowserTutorialProcessingFormsInFlask.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a22017Dec6SUBMITbuttonGivenValueAndFlaskAppUsesdifferentBrowsersToRenderMyFileTutorialProcessingFormsInFlask.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a32017Dec6WedHellohandlerHandlesReqSInceFOrmActionIsSPecifiedAsHello.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a42017Dec6WedPOSTmethodUsedInREnderingFormTOBrowserByServerUsingFlskAppInPythonFile.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/unsuccessful/1.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/unsuccessful/a12017Dec6wedHellohandlerDoesNotHandleTheRequestMadeByBrowserToServer.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/unsuccessful/a22017Dec6wedFormActonNotSPecifiedSoHellohandlerDoesNotHandleTheRequestMadeByBrowserToServer.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/differenceBtwUsingServerAndNotUsingServer/2017Dec5pm0152DiffNOTrenderedThroSERVERandRenderedThroFlaskAppSERVERGivesIndiaWorksDOThtmlFile.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/differenceBtwUsingServerAndNotUsingServer/gymtime2017Dec7SubmitHTMLthroServerDIFFgymtimeaddListIsNOTrenderedThroSERVERandRenderedThroFlaskAp.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/differenceBtwUsingServerAndNotUsingServer/gymtime2017Dec7SubmitHTMLwithoutServerDIFFgymtimRenderedThroLocalNOTrenderedThroSERVERand.JPG
+        deleted:    templates/sqlmailimages/successSqlmailPics/gymtime2017Dec7SubmitDisplaysIpformHTMLwithoutServer.JPG
+        modified:   templates/sqlmailstyling/sqlmailstyle1.css
+        modified:   templates/sqlmailstyling/sqlmailstyle2.css
+        deleted:    templates/sqlmailtextfiles/1.txt
+        deleted:    templates/sqlmailtextfiles/2017Dec11.txt
+        deleted:    templates/sqlmailtextfiles/2017Dec14WorkedForSLASHemailNowCode4SLASHexerhours.txt
+        deleted:    templates/sqlmailtextfiles/Hint1.txt
+        deleted:    templates/sqlmailtextfiles/NewClientExerhours2.txt
+        deleted:    templates/sqlmailtextfiles/gitcmd2017Nov14Tuessendgymail1.txt
+        deleted:    templates/sqlmailtextfiles/gitcmd2017dec5TuesSentGymtimeaddlistDOThtmlTHROUGHbrowserUsingFlaskEnvironment.txt
+        deleted:    templates/sqlmailtextfiles/impInstallsqlmail/gitbash1India.txt
+
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode/1USEthis2017Oct25/sqlmail (master)
+$ git commit -m "Accidentally deleted templates folderSocreatedNewOne"
+[master 385c4f4] Accidentally deleted templates folderSocreatedNewOne
+ 46 files changed, 101 insertions(+), 1090 deletions(-)
+ delete mode 100644 templates/IndiaWorks.html
+ delete mode 100644 templates/form1.html
+ delete mode 100644 templates/ipform.html
+ delete mode 100644 templates/sendemail.html
+ rename templates/{base.html => sqlmailaddList.html} (100%)
+ delete mode 100644 templates/sqlmailimages/gymtimeaddListDOThtmNOTlRenderedThroughBrowser.JPG
+ delete mode 100644 templates/sqlmailimages/gymtimeaddListDOThtml.JPG
+ delete mode 100644 templates/sqlmailimages/gymtimeaddListDOThtmlRenderedThroughBrowser.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/1sqlmail/2.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/1sqlmail/2017Dec14a1.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/1sqlmail/3.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/1sqlmail/a2017Dec11.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/1.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/2.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/3GoodSubmit.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/4SUCCESStqlJesus.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/1sqlmail/mywork/solu1.txt
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/2017Dec5gitbashCmd2TestPrintingOfTestMessageEveryTImeBrowserRendersFileWhenUserPressesSubmits.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/2017Dec5pm0152dIFFERENCEbtwGymtimeaddListIsNOTrenderedThroSERVERandRenderedThroFlaskAppSERVERGivesIndiaWorksDOThtmlFile.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/2017Dec5pm0152gymtimeaddListIsRenderedThrohtml file is being rendered THROUGH the flask application serverGivesIndiaWorksDOThtmlFile.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/HiFromIndiaDisplayedOnURLlocalhostCOLON5000slashindia.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/IndiaWorksTEMPLATEdisplayedOnURLlocalhostCOLON5000slashindia.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a12017Dec5TutorialProcessingFormsInFlaskRendersEmptyForm.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a2017Dec5TutorialProcessingFormsInFlask.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a2017Dec6FlaskAppUsesdifferentBrowsersToRenderMyFileTutorialProcessingFormsInFlask.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a2017Dec6KillingFlaskAppDisablesServerFromRenderingMyFileToBrowserTutorialProcessingFormsInFlask.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a22017Dec6SUBMITbuttonGivenValueAndFlaskAppUsesdifferentBrowsersToRenderMyFileTutorialProcessingFormsInFlask.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a32017Dec6WedHellohandlerHandlesReqSInceFOrmActionIsSPecifiedAsHello.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/a42017Dec6WedPOSTmethodUsedInREnderingFormTOBrowserByServerUsingFlskAppInPythonFile.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/unsuccessful/1.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/unsuccessful/a12017Dec6wedHellohandlerDoesNotHandleTheRequestMadeByBrowserToServer.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/ProcessingFORMSinFlask/unsuccessful/a22017Dec6wedFormActonNotSPecifiedSoHellohandlerDoesNotHandleTheRequestMadeByBrowserToServer.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/differenceBtwUsingServerAndNotUsingServer/2017Dec5pm0152DiffNOTrenderedThroSERVERandRenderedThroFlaskAppSERVERGivesIndiaWorksDOThtmlFile.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/differenceBtwUsingServerAndNotUsingServer/gymtime2017Dec7SubmitHTMLthroServerDIFFgymtimeaddListIsNOTrenderedThroSERVERandRenderedThroFlaskAp.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/differenceBtwUsingServerAndNotUsingServer/gymtime2017Dec7SubmitHTMLwithoutServerDIFFgymtimRenderedThroLocalNOTrenderedThroSERVERand.JPG
+ delete mode 100644 templates/sqlmailimages/successSqlmailPics/gymtime2017Dec7SubmitDisplaysIpformHTMLwithoutServer.JPG
+ delete mode 100644 templates/sqlmailtextfiles/1.txt
+ delete mode 100644 templates/sqlmailtextfiles/2017Dec11.txt
+ delete mode 100644 templates/sqlmailtextfiles/2017Dec14WorkedForSLASHemailNowCode4SLASHexerhours.txt
+ delete mode 100644 templates/sqlmailtextfiles/Hint1.txt
+ delete mode 100644 templates/sqlmailtextfiles/NewClientExerhours2.txt
+ delete mode 100644 templates/sqlmailtextfiles/gitcmd2017Nov14Tuessendgymail1.txt
+ delete mode 100644 templates/sqlmailtextfiles/gitcmd2017dec5TuesSentGymtimeaddlistDOThtmlTHROUGHbrowserUsingFlaskEnvironment.txt
+ delete mode 100644 templates/sqlmailtextfiles/impInstallsqlmail/gitbash1India.txt
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode/1USEthis2017Oct25/sqlmail (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode/1USEthis2017Oct25/sqlmail (master)
+$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.09 KiB | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/HannahMoses/sqlmail.git
+   68ddd65..385c4f4  master -> master
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/Git/gitcode/1USEthis2017Oct25/sqlmail (master)
+$
+
+
